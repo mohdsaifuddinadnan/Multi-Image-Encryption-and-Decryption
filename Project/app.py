@@ -1,3 +1,6 @@
+import sys
+import os
+sys.path.append(os.path.dirname(__file__))
 from flask import Flask, render_template, send_file, request, jsonify
 from werkzeug.utils import secure_filename
 import os
